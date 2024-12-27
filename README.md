@@ -81,10 +81,9 @@ Contributions are welcome! Feel free to open issues or submit pull requests.
 
 ## Author  
 **Med Yassine Khlif**  
-Feel free to contact me at [khlifyassin5@gmail.com](mailto:khlifyassin5@gmail.com)  
-
+Feel free to contact me at: khlifyassin5@gmail.com 
 
 ## Demo  
 Here’s a quick preview of how the web application looks:  
 
-[Watch Demo Video](client/src/assets/demo.mp4)
+![Demo](client/src/assets/prev.gif)
