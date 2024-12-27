@@ -7,7 +7,6 @@ This project is a **simple hotel reservation form** that allows users to book ro
 
 ## Features  
 - User-friendly **reservation form** with dynamic room selection.  
-- Secure **user authentication** and storage of booking details.  
 - **Real-time validation** for inputs such as room type and number of nights.  
 - **Responsive design** styled with **Tailwind CSS**.  
 - Data storage and management using **MySQL** via **MySQL Workbench**.  
@@ -37,8 +36,8 @@ This project is a **simple hotel reservation form** that allows users to book ro
 ### Backend Setup  
 1. Clone the repository:  
    ```bash  
-   git clone <repository_url>  
-   cd backend  
+   git clone https://github.com/MedYessinKhlif/HotelBooking 
+   cd demo  
    ```  
 2. Update the **application.properties** file in `src/main/resources` with your MySQL credentials:  
    ```properties  
@@ -54,7 +53,7 @@ This project is a **simple hotel reservation form** that allows users to book ro
 ### Frontend Setup  
 1. Navigate to the frontend directory:  
    ```bash  
-   cd frontend  
+   cd client  
    ```  
 2. Install dependencies:  
    ```bash  
