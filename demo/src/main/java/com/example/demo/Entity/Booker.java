@@ -48,21 +48,16 @@ public class Booker {
     @Column(name="amountToPay")
     private double amountToPay;
 
-    // Method to calculate nightsSpent and amountToPay
     public void calculateNightsAndAmount() {
-        // Convert dateIn and dateOut from String to LocalDate
         LocalDate checkInDate = LocalDate.parse(dateIn);
         LocalDate checkOutDate = LocalDate.parse(dateOut);
 
-        // Calculate nightsSpent
         this.nightsSpent = (int) ChronoUnit.DAYS.between(checkInDate, checkOutDate);
 
-        // Calculate amountToPay based on roomType
         double pricePerNight = getRoomPricePerNight();
         this.amountToPay = nightsSpent * pricePerNight;
     }
 
-    // Helper method to get price per night based on roomType
     private double getRoomPricePerNight() {
         switch (roomType) {
             case S1: return 100.0;
@@ -77,7 +72,6 @@ public class Booker {
         }
     }
 
-    // Getter and Setter methods
     public String getIdInfo() {
         return idInfo;
     }
